@@ -24,7 +24,7 @@ function Header() {
     <header className="flex justify-center items-center p-10 bg-gradient-to-r from-purple-500 to-pink-500 h-[300px]">
       <div className="text-center">
         <h1 className=" text-5xl text-white">NextJS Pokemon Finder App</h1>
-        <p className="text-2xl text-white">Find your favourite Pokemon</p>
+        <p className="text-2xl text-white">Find your favourite Pokemons</p>
         <form onSubmit={handleSubmit} className="flex mt-2">
           <input
             type="text"
